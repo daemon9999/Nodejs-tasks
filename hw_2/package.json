@@ -1,0 +1,21 @@
+{
+  "name": "homework_2",
+  "version": "1.0.0",
+  "description": "The second homework of node js covered in ABB Tech Course",
+  "main": "dist/test.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/test.js"
+  },
+  "author": "Murad Masimli",
+  "license": "ISC",
+  "dependencies": {
+    "systemjs": "^6.14.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/systemjs": "^6.13.2",
+    "@types/uuid": "^9.0.4"
+  }
+}
