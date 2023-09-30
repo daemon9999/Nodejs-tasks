@@ -1,0 +1,16 @@
+{
+  "name": "homework_3",
+  "version": "1.0.0",
+  "description": "The third homework of Node js course",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "author": "Murad Masimli",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
