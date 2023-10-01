@@ -1,0 +1,18 @@
+{
+  "name": "homework_4",
+  "version": "1.0.0",
+  "description": "The fourth homework of Node js course!",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "author": "Murad Masimli",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "yup": "^1.3.2"
+  }
+}
