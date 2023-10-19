@@ -3,7 +3,7 @@ import "dotenv/config";
 import { AppDataSource } from "./data-source.ts";
 import newsPostRouter from "./routes/news-post.route.ts";
 import newsPostMiddleware from "./middleware/news-post.middleware.ts";
-
+/* TYPEORM */
 AppDataSource.initialize()
   .then(() => {
     console.log("Connection is ready!");
